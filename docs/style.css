@@ -50,6 +50,24 @@ h4{
     background-color: rgb(235, 235, 235);
 }
 
+.Nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+}
+
+.Nav li {
+    float: center;
+}
+
+.Nav li a {
+    display: block;
+    text-align: center;
+    padding: 16px;
+    text-decoration: none;
+}
+
 .tooltip {
     position: relative;
     display: inline-block;
